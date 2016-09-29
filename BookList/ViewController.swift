@@ -9,14 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
     
     class Book {
         
         let title : String?
         let author : String?
         let imageURL : String?
-    
+        
         init (title: String?, author: String?, imageURL : String?) {
             
             self.title = title
@@ -32,7 +32,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var books = [Book]()
     var ebayUrlString : String = "http://calm-mountain-87063.herokuapp.com/books.json"
-    //http://de-coding-test.s3.amazonaws.com/books.json
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,17 +97,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     func tableView(_ : UITableView, numberOfRowsInSection section: Int) -> Int {
         return books.count
         
     }
-
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! CustomCell
