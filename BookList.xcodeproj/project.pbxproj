@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4900884F1D9C9134007E47A6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900884E1D9C9134007E47A6 /* CustomCell.swift */; };
 		493CB0F31D9B267A00AC9661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493CB0F21D9B267A00AC9661 /* AppDelegate.swift */; };
 		493CB0F51D9B267A00AC9661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493CB0F41D9B267A00AC9661 /* ViewController.swift */; };
 		493CB0F81D9B267A00AC9661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493CB0F61D9B267A00AC9661 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4900884E1D9C9134007E47A6 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		493CB0EF1D9B267A00AC9661 /* BookList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493CB0F21D9B267A00AC9661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493CB0F41D9B267A00AC9661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				493CB0F21D9B267A00AC9661 /* AppDelegate.swift */,
 				493CB0F41D9B267A00AC9661 /* ViewController.swift */,
+				4900884E1D9C9134007E47A6 /* CustomCell.swift */,
 				493CB0F61D9B267A00AC9661 /* Main.storyboard */,
 				493CB0F91D9B267A00AC9661 /* Assets.xcassets */,
 				493CB0FB1D9B267A00AC9661 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493CB0F51D9B267A00AC9661 /* ViewController.swift in Sources */,
+				4900884F1D9C9134007E47A6 /* CustomCell.swift in Sources */,
 				493CB0F31D9B267A00AC9661 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				493CB1191D9B267A00AC9661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493CB11A1D9B267A00AC9661 /* Build configuration list for PBXNativeTarget "BookListTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				493CB11C1D9B267A00AC9661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493CB11D1D9B267A00AC9661 /* Build configuration list for PBXNativeTarget "BookListUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				493CB11F1D9B267A00AC9661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
